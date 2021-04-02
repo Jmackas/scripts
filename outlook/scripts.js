@@ -1,4 +1,9 @@
 setTimeout(browserZoom, 3000);
+setTimeout(hrInjection, 3000);
+
+
+
+
 
 function browserZoom() {
   // Add button to main menu
@@ -60,4 +65,10 @@ function browserZoom() {
   }
 }
 
-// test
+
+
+
+
+function hrInjection() {
+
+}
