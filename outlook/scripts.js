@@ -70,5 +70,16 @@ function browserZoom() {
 
 
 function hrInjection() {
+    
 
+  function executehrInjection() {
+      // Identify the HR
+      let hrDetection = document.querySelector('[aria-label="Message body"]').innerHTML;
+
+      // Replace XYZ with a HR
+      hrDetection = hrDetection.replace("xyzxyz", "<hr>");
+
+      // Add back into the email
+      document.querySelector('[aria-label="Message body"]').innerHTML = hrDetection;
+  }
 }
