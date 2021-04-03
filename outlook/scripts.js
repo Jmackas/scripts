@@ -1,3 +1,5 @@
+// https://jmackas.github.io/scripts/outlook/scripts.js
+
 setTimeout(browserZoom, 3000);
 hrInjection();
 
