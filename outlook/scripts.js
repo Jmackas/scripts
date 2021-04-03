@@ -1,5 +1,5 @@
 setTimeout(browserZoom, 3000);
-setTimeout(hrInjection, 3000);
+hrInjection();
 
 
 
@@ -70,7 +70,8 @@ function browserZoom() {
 
 
 function hrInjection() {
-    
+      // Listener to hr injection
+  document.getElementById("injectHR").addEventListener("click", executehrInjection);
 
   function executehrInjection() {
       // Identify the HR
