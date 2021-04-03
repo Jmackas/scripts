@@ -12,7 +12,7 @@ function browserZoom() {
   // Zoom in and out buttons
   mainMenu.insertAdjacentHTML(
     "afterend",
-    '<a href="#" id="larger" style="font-size: 14pt;font-weight: bold;">Larger</a>&nbsp&nbsp<a href="#" id="large" style="font-size: 14pt;font-weight: bold;">Large</a>&nbsp&nbsp<a href="#" id="normal" style="font-size: 14pt;font-weight: bold;">Normal</a><a href="#" id="injectHR" style="font-size: 14pt;font-weight: bold;">Replace HR</a>'
+    '<a href="#" id="larger" style="font-size: 14pt;font-weight: bold;">Larger</a>&nbsp&nbsp<a href="#" id="large" style="font-size: 14pt;font-weight: bold;">Large</a>&nbsp&nbsp<a href="#" id="normal" style="font-size: 14pt;font-weight: bold;">Normal</a> <a href="#" id="injectHR" style="font-size: 14pt;font-weight: bold;">Replace HR</a>'
   );
   
     // Listener to zoom in
