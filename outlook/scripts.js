@@ -28,7 +28,7 @@ function browserZoom() {
   document.getElementById("normal").addEventListener("click", normal);
 
   // Declare variables
-  let emailReadMode = document.querySelector(".wide-content-host .allowTextSelection:nth-of-type(3)");
+  let emailReadMode = document.querySelector(".Vzh05neKQu87GUy5UviOc");
   let emailEditMore = document.querySelector('[aria-label="Message body"]');
 
   function larger() {
