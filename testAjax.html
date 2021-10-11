@@ -1,0 +1,17 @@
+<h1>Test</h1>
+
+<script>
+// XMLHttpRequest to check for the current time zone set in settings
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function () {
+  if (this.readyState == 4 && this.status == 200) {
+    // Add the time zone page to variable
+    let timezone = this.responseText;
+    document.write(timezone);
+  }
+};
+xhttp.open("GET", "https://lab.electromeet.com/Home", true);
+xhttp.send();
+
+
+</script>
